@@ -37,7 +37,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Debug",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -54,7 +54,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Debug",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -74,7 +74,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Debug",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -91,7 +91,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -108,7 +108,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -128,7 +128,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -145,7 +145,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Development",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -162,7 +162,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Development",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -182,7 +182,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Development",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -199,7 +199,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Test",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -216,7 +216,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Test",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -236,7 +236,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Test",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -253,7 +253,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -270,7 +270,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -290,7 +290,7 @@
 					"Youtube_Tuto",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -307,7 +307,7 @@
 					"Youtube_TutoEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -324,7 +324,7 @@
 					"Youtube_TutoEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -344,7 +344,7 @@
 					"Youtube_TutoEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -361,7 +361,7 @@
 					"Youtube_TutoEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -378,7 +378,7 @@
 					"Youtube_TutoEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -398,7 +398,7 @@
 					"Youtube_TutoEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -415,7 +415,7 @@
 					"Youtube_TutoEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -432,7 +432,7 @@
 					"Youtube_TutoEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -452,7 +452,7 @@
 					"Youtube_TutoEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -469,7 +469,7 @@
 			{
 				"name": "Launch Youtube_Tuto (Debug)",
 				"request": "launch",
-				"program": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"program": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
 				"preLaunchTask": "Youtube_Tuto Win64 Debug Build",
 				"args": [
 				],
@@ -485,7 +485,7 @@
 			{
 				"name": "Launch Youtube_Tuto (DebugGame)",
 				"request": "launch",
-				"program": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"program": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
 				"preLaunchTask": "Youtube_Tuto Win64 DebugGame Build",
 				"args": [
 				],
@@ -501,7 +501,7 @@
 			{
 				"name": "Launch Youtube_Tuto (Development)",
 				"request": "launch",
-				"program": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Binaries\\Win64\\UnrealGame.exe",
+				"program": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Binaries\\Win64\\UnrealGame.exe",
 				"preLaunchTask": "Youtube_Tuto Win64 Development Build",
 				"args": [
 				],
@@ -517,7 +517,7 @@
 			{
 				"name": "Launch Youtube_Tuto (Test)",
 				"request": "launch",
-				"program": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"program": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
 				"preLaunchTask": "Youtube_Tuto Win64 Test Build",
 				"args": [
 				],
@@ -533,7 +533,7 @@
 			{
 				"name": "Launch Youtube_Tuto (Shipping)",
 				"request": "launch",
-				"program": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"program": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
 				"preLaunchTask": "Youtube_Tuto Win64 Shipping Build",
 				"args": [
 				],
@@ -552,7 +552,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
 				"preLaunchTask": "Youtube_TutoEditor Win64 Debug Build",
 				"args": [
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject"
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.7",
 				"stopAtEntry": false,
@@ -569,7 +569,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
 				"preLaunchTask": "Youtube_TutoEditor Win64 DebugGame Build",
 				"args": [
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject"
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.7",
 				"stopAtEntry": false,
@@ -586,7 +586,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
 				"preLaunchTask": "Youtube_TutoEditor Win64 Development Build",
 				"args": [
-					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject"
+					"C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.7",
 				"stopAtEntry": false,
@@ -606,7 +606,7 @@
 				"args": [
 					"-projectfiles",
 					"-vscode",
-					"-project=C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Youtube_Tuto.uproject",
+					"-project=C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Youtube_Tuto.uproject",
 					"-game",
 					"-engine",
 					"-dotnet"

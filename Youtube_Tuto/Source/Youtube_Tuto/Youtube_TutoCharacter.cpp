@@ -23,7 +23,7 @@ AYoutube_TutoCharacter::AYoutube_TutoCharacter()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
-		
+
 	// Don't rotate when the controller rotates. Let that just affect the camera.
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = false;
@@ -47,21 +47,33 @@ AYoutube_TutoCharacter::AYoutube_TutoCharacter()
 	CameraBoom->SetupAttachment(RootComponent);
 	CameraBoom->TargetArmLength = 400.0f;
 	CameraBoom->bUsePawnControlRotation = true;
-	
+
 	// Create a follow camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 	FollowCamera->bUsePawnControlRotation = false;
 
-	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
+	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character)
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 	PlayerHUDClass = nullptr;
 	PlayerHUD = nullptr;
 
 	// ThrowPreviewSpline = CreateDefaultSubobject<USplineComponent>(TEXT("ThrowPreviewSpline"));
 	// ThrowPreviewSpline->SetupAttachment(RootComponent);
+	TrajectoryMesh = CreateDefaultSubobject<UInstancedStaticMeshComponent>(TEXT("TrajectoryMesh"));
+	TrajectoryMesh->SetupAttachment(RootComponent);
+	TrajectoryMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	TrajectoryMesh->SetMobility(EComponentMobility::Movable);
+
+	TrajectoryMesh->SetAbsolute(true, true, true);
+
+	TargetDecal = CreateDefaultSubobject<UDecalComponent>(TEXT("TargetDecal"));
+	TargetDecal->SetupAttachment(RootComponent);
+	TargetDecal->SetVisibility(false);
+	TargetDecal->DecalSize = FVector(64, 64, 64);
 }
-void AYoutube_TutoCharacter::BeginPlay(){
+void AYoutube_TutoCharacter::BeginPlay()
+{
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AYoutube_TutoCharacter::OnBeginOverlap);
 	// ThrowPreviewSpline->ClearSplinePoints();
@@ -70,16 +82,22 @@ void AYoutube_TutoCharacter::BeginPlay(){
 	// 	Player_Firefly_Widget->AddToViewport();
 
 	// }
-	//locally controlled when user connected
+	// locally controlled when user connected
 	// if(IsLocallyControlled() && PlayerHUDClass){
 	// 	//own by local player controller
 	// 	AYoutube_TutoPlayerController* FPC = GetController<AYoutube_TutoPlayerController>();
 	// 	PlayerHUD = CreateWidget<ULightUserWidget>(FPC, PlayerHUDClass);
 	// 	PlayerHUD->AddToPlayerScreen();
 	// }
+	if (TrajectorySegmentMesh)
+	{
+		TrajectoryMesh->SetStaticMesh(TrajectorySegmentMesh);
+	}
+	TargetDecal->SetVisibility(false);
+
 	if (IsLocallyControlled() && PlayerHUDClass)
 	{
-		APlayerController* PC = Cast<APlayerController>(GetController());
+		APlayerController *PC = Cast<APlayerController>(GetController());
 		if (PC)
 		{
 			PlayerHUD = CreateWidget<ULightUserWidget>(PC, PlayerHUDClass);
@@ -91,9 +109,11 @@ void AYoutube_TutoCharacter::BeginPlay(){
 		}
 	}
 }
-//remove from parent, it would clean up?
-void AYoutube_TutoCharacter::EndPlay(const EEndPlayReason::Type EndPlayReason){
-	if(PlayerHUD){
+// remove from parent, it would clean up?
+void AYoutube_TutoCharacter::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	if (PlayerHUD)
+	{
 		PlayerHUD->RemoveFromParent();
 		PlayerHUD = nullptr;
 	}
@@ -106,7 +126,7 @@ void AYoutube_TutoCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (bIsChargingThrow)
 	{
-		ThrowChargeTime += DeltaTime;
+		ThrowChargeTime += DeltaTime * throwMvtTime;
 
 		// Optional clamp
 		if (ThrowChargeTime > MaxChargeTime)
@@ -114,29 +134,29 @@ void AYoutube_TutoCharacter::Tick(float DeltaTime)
 		UpdateThrowPreview();
 	}
 	// if (bIsChargingThrow)
-    // {
-    //     ThrowChargeTime += DeltaTime;
-    //     ThrowChargeTime = FMath::Min(ThrowChargeTime, MaxChargeTime);
+	// {
+	//     ThrowChargeTime += DeltaTime;
+	//     ThrowChargeTime = FMath::Min(ThrowChargeTime, MaxChargeTime);
 
-    //     UpdateThrowPreview(); // <-- draw arc
-    // }
-    // else
-    // {
-    //     // Clear preview when not charging
-    //     for (USplineMeshComponent* PreviewMesh : PreviewMeshes)
-    //     {
+	//     UpdateThrowPreview(); // <-- draw arc
+	// }
+	// else
+	// {
+	//     // Clear preview when not charging
+	//     for (USplineMeshComponent* PreviewMesh : PreviewMeshes)
+	//     {
 	// 		if (PreviewMesh)
 	// 		{
 	// 			PreviewMesh->DestroyComponent();
 	// 		}
-    //     }
-    //     PreviewMeshes.Empty();
-    //     ThrowPreviewSpline->ClearSplinePoints();
-    // }
-
+	//     }
+	//     PreviewMeshes.Empty();
+	//     ThrowPreviewSpline->ClearSplinePoints();
+	// }
 }
-void AYoutube_TutoCharacter::AddLight(const float light_value){
-	Light+=light_value;
+void AYoutube_TutoCharacter::AddLight(const float light_value)
+{
+	Light += light_value;
 	if (PlayerHUD)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Add Light"));
@@ -144,12 +164,12 @@ void AYoutube_TutoCharacter::AddLight(const float light_value){
 	}
 }
 
-
-void AYoutube_TutoCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void AYoutube_TutoCharacter::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
 {
 	// Set up action bindings
-	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent)) {
-		
+	if (UEnhancedInputComponent *EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
+	{
+
 		// Jumping
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &ACharacter::Jump);
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
@@ -160,13 +180,13 @@ void AYoutube_TutoCharacter::SetupPlayerInputComponent(UInputComponent* PlayerIn
 
 		// Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AYoutube_TutoCharacter::Look);
-		
+
 		// Throw light
-		//EnhancedInputComponent->BindAction(ThrowAction, ETriggerEvent::Triggered, this, &AYoutube_TutoCharacter::Throw);
+		// EnhancedInputComponent->BindAction(ThrowAction, ETriggerEvent::Triggered, this, &AYoutube_TutoCharacter::Throw);
 		EnhancedInputComponent->BindAction(ThrowAction, ETriggerEvent::Started, this, &AYoutube_TutoCharacter::StartThrowCharge);
 		EnhancedInputComponent->BindAction(ThrowAction, ETriggerEvent::Completed, this, &AYoutube_TutoCharacter::ReleaseThrow);
-		
-		//triggered, Completed: when you lift of the button it will run this, Started
+
+		// triggered, Completed: when you lift of the button it will run this, Started
 	}
 	else
 	{
@@ -174,7 +194,7 @@ void AYoutube_TutoCharacter::SetupPlayerInputComponent(UInputComponent* PlayerIn
 	}
 }
 
-void AYoutube_TutoCharacter::Move(const FInputActionValue& Value)
+void AYoutube_TutoCharacter::Move(const FInputActionValue &Value)
 {
 	// input is a Vector2D
 	FVector2D MovementVector = Value.Get<FVector2D>();
@@ -183,7 +203,7 @@ void AYoutube_TutoCharacter::Move(const FInputActionValue& Value)
 	DoMove(MovementVector.X, MovementVector.Y);
 }
 
-void AYoutube_TutoCharacter::Look(const FInputActionValue& Value)
+void AYoutube_TutoCharacter::Look(const FInputActionValue &Value)
 {
 	// input is a Vector2D
 	FVector2D LookAxisVector = Value.Get<FVector2D>();
@@ -203,10 +223,10 @@ void AYoutube_TutoCharacter::DoMove(float Right, float Forward)
 		// get forward vector
 		const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 
-		// get right vector 
+		// get right vector
 		const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
-		// add movement 
+		// add movement
 		AddMovementInput(ForwardDirection, Forward);
 		AddMovementInput(RightDirection, Right);
 	}
@@ -234,31 +254,48 @@ void AYoutube_TutoCharacter::DoJumpEnd()
 	StopJumping();
 }
 
-void AYoutube_TutoCharacter::AddMaxLight(const float light_value){
-	MaxLight+=light_value;
+void AYoutube_TutoCharacter::AddMaxLight(const float light_value)
+{
+	MaxLight += light_value;
 	GEngine->AddOnScreenDebugMessage(
 		-1, 2.0f, FColor::Green,
-		FString::Printf(TEXT("MaxLight: %.0f"), MaxLight)
-	);
+		FString::Printf(TEXT("MaxLight: %.0f"), MaxLight));
 }
 // void AYoutube_TutoCharacter::Throw(const FInputActionValue& Value){
 // 	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Throw Event Pressed"));
-// 	FVector SpawnLocation = GetActorLocation() + GetActorForwardVector() * 100.0f; 
+// 	FVector SpawnLocation = GetActorLocation() + GetActorForwardVector() * 100.0f;
 //     FRotator SpawnRotation = GetActorRotation();
 
 //     GetWorld()->SpawnActor<AFirefly>(FireflyActor, SpawnLocation, SpawnRotation);
 // 	//GetWorld()->SpawnActor<AFirefly>(FireflyActor, GetActorLocation(), GetActorRotation());
 // }
 
-void AYoutube_TutoCharacter::StartThrowCharge(const FInputActionValue& Value)
+void AYoutube_TutoCharacter::StartThrowCharge(const FInputActionValue &Value)
 {
+	if (Firefly <= 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, FString::Printf(TEXT("No Firefly"), Firefly));
+		return;
+	}
+
+	Firefly -= 1.0f;
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
+	if (PlayerHUD)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Has Updated"));
+		PlayerHUD->SetNbFirefly((int32)Firefly);
+	}
 	bIsChargingThrow = true;
 	ThrowChargeTime = 0.0f;
 }
 
-void AYoutube_TutoCharacter::ReleaseThrow(const FInputActionValue& Value)
+void AYoutube_TutoCharacter::ReleaseThrow(const FInputActionValue &Value)
 {
+	if (!bIsChargingThrow)
+		return;
 	bIsChargingThrow = false;
+	TargetDecal->SetVisibility(false);
+	TrajectoryMesh->ClearInstances();
 
 	// Clamp charge
 	float FinalCharge = FMath::Clamp(ThrowChargeTime, 0.0f, MaxChargeTime);
@@ -269,161 +306,122 @@ void AYoutube_TutoCharacter::ReleaseThrow(const FInputActionValue& Value)
 	// Debug
 	GEngine->AddOnScreenDebugMessage(
 		-1, 2.0f, FColor::Green,
-		FString::Printf(TEXT("Charge: %.2f"), ChargeAlpha)
-	);
+		FString::Printf(TEXT("Charge: %.2f"), ChargeAlpha));
 
 	// Spawn firefly
-	FVector SpawnLocation = GetActorLocation() + GetActorForwardVector() * 100.0f;
-	FRotator SpawnRotation = GetActorRotation();
+	// FVector SpawnLocation = GetActorLocation() + GetActorForwardVector() * 100.0f;
+	// FRotator SpawnRotation = GetActorRotation();
+	FRotator ControlRot = GetControlRotation();
+	FRotator YawOnly(0.f, ControlRot.Yaw, 0.f);
 
-	AFirefly* FireflyInstance = GetWorld()->SpawnActor<AFirefly>(FireflyActor, SpawnLocation, SpawnRotation);
+	FVector ForwardDir = FRotationMatrix(YawOnly).GetUnitAxis(EAxis::X);
+
+	FVector SpawnLocation = GetActorLocation() + ForwardDir * 100.f;
+	FRotator SpawnRotation = YawOnly;
+
+	AFirefly *FireflyInstance = GetWorld()->SpawnActor<AFirefly>(FireflyActor, SpawnLocation, SpawnRotation);
 
 	if (FireflyInstance)
 	{
 		// Example: scale launch strength by charge
 		float ThrowStrength = FMath::Lerp(500.0f, 2000.0f, ChargeAlpha);
-		FireflyInstance->Launch(ThrowStrength); 
+		FireflyInstance->Launch(ThrowStrength);
 	}
-
-	// for (USplineMeshComponent* PreviewMesh : PreviewMeshes)
-	// {
-	// 	if (PreviewMesh)
-	// 		{
-	// 			PreviewMesh->DestroyComponent();
-	// 		}
-	// }
-	// PreviewMeshes.Empty();
-	// ThrowPreviewSpline->ClearSplinePoints();
 }
 
-void AYoutube_TutoCharacter::RestartGame(){
+void AYoutube_TutoCharacter::RestartGame()
+{
 	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
-	//then there is like on player BP Mesh, Collision: Collision Preset: Pawn->Ragdoll
-	//New FOlder(physics)-> Physics:Physics asset: skeleton mesh. 
-	//Physics, additional information: currently used Physics Asset: name of physics asset wanted
-	
+	// then there is like on player BP Mesh, Collision: Collision Preset: Pawn->Ragdoll
+	// New FOlder(physics)-> Physics:Physics asset: skeleton mesh.
+	// Physics, additional information: currently used Physics Asset: name of physics asset wanted
 }
-void AYoutube_TutoCharacter::OnBeginOverlap(class UPrimitiveComponent* HitComp,
-	class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex,
-	bool bFromSweep, const FHitResult &SweepResult){
-		if(OtherActor->ActorHasTag("Candy")){
-			//UE_LOG(LogTemp, Warning, TEXT("Collided with"));
-			Firefly += 1.0f;
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
-			if (PlayerHUD)
-			{
-				UE_LOG(LogTemp, Warning, TEXT("Has Updated"));
-				PlayerHUD->SetNbFirefly((int32)Firefly);
-			}
-			// if(Firefly > 100.0f)
-			// 	Firefly = 100.0f;
-			
-			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
-			OtherActor->Destroy();
+void AYoutube_TutoCharacter::OnBeginOverlap(class UPrimitiveComponent *HitComp,
+											class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex,
+											bool bFromSweep, const FHitResult &SweepResult)
+{
+	if (OtherActor->ActorHasTag("Candy"))
+	{
+		// UE_LOG(LogTemp, Warning, TEXT("Collided with"));
+		Firefly += 1.0f;
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
+		if (PlayerHUD)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Has Updated"));
+			PlayerHUD->SetNbFirefly((int32)Firefly);
 		}
+		// if(Firefly > 100.0f)
+		// 	Firefly = 100.0f;
 
+		// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
+		OtherActor->Destroy();
+	}
 }
-
-// void AYoutube_TutoCharacter::UpdateThrowPreview()
-// {
-//     if (!PreviewSplineMesh) return;
-
-//     // Clear old meshes
-//     for (USplineMeshComponent* PreviewMesh : PreviewMeshes)
-//     {
-//         if (PreviewMesh)
-// 		{
-// 			PreviewMesh->DestroyComponent();
-// 		}
-//     }
-//     PreviewMeshes.Empty();
-//     ThrowPreviewSpline->ClearSplinePoints();
-
-//     // === Compute charge ===
-//     float ChargeAlpha = ThrowChargeTime / MaxChargeTime;
-//     float ThrowStrength = FMath::Lerp(300.f, 1500.f, ChargeAlpha);
-//     float ForwardSpeed = 1000.f;
-
-//     FVector StartLocation = GetActorLocation() + GetActorForwardVector() * 100.f;
-//     FVector LaunchVelocity =
-//         (GetActorForwardVector() * ForwardSpeed) +
-//         (FVector::UpVector * ThrowStrength);
-
-//     // === Predict Path ===
-//     FPredictProjectilePathParams Params;
-//     Params.StartLocation = StartLocation;
-//     Params.LaunchVelocity = LaunchVelocity;
-//     Params.bTraceWithCollision = true;
-//     Params.ProjectileRadius = 5.f;
-//     Params.MaxSimTime = 3.f;
-//     Params.TraceChannel = ECC_Visibility;
-
-//     FPredictProjectilePathResult Result;
-//     bool bHit = UGameplayStatics::PredictProjectilePath(this, Params, Result);
-
-//     // === Build spline ===
-//     for (FPredictProjectilePathPointData& Point : Result.PathData)
-//     {
-//         ThrowPreviewSpline->AddSplinePoint(Point.Location, ESplineCoordinateSpace::World);
-//     }
-
-//     ThrowPreviewSpline->UpdateSpline();
-
-//     // === Create spline mesh segments ===
-//     int32 NumPoints = ThrowPreviewSpline->GetNumberOfSplinePoints();
-//     for (int32 i = 0; i < NumPoints - 1; i++)
-//     {
-//         USplineMeshComponent* SplineMesh = NewObject<USplineMeshComponent>(this);
-//         SplineMesh->SetStaticMesh(PreviewSplineMesh);
-// 		SplineMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-//         SplineMesh->RegisterComponent();
-//         SplineMesh->SetMobility(EComponentMobility::Movable);
-//         SplineMesh->AttachToComponent(ThrowPreviewSpline, FAttachmentTransformRules::KeepWorldTransform);
-
-//         FVector StartPos, StartTangent, EndPos, EndTangent;
-//         ThrowPreviewSpline->GetLocationAndTangentAtSplinePoint(i, StartPos, StartTangent, ESplineCoordinateSpace::World);
-//         ThrowPreviewSpline->GetLocationAndTangentAtSplinePoint(i+1, EndPos, EndTangent, ESplineCoordinateSpace::World);
-
-//         SplineMesh->SetStartAndEnd(StartPos, StartTangent, EndPos, EndTangent);
-
-//         PreviewMeshes.Add(SplineMesh);
-//     }
-// }
-
 void AYoutube_TutoCharacter::UpdateThrowPreview()
 {
-    float ChargeAlpha = ThrowChargeTime / MaxChargeTime;
-    float ThrowStrength = FMath::Lerp(300.f, 1500.f, ChargeAlpha);
-    float ForwardSpeed = 1000.f;
+	float ChargeAlpha = ThrowChargeTime / MaxChargeTime;
+	// float ThrowStrength = FMath::Lerp(300.f, 1500.f, ChargeAlpha);
+	float ThrowStrength = FMath::Lerp(500.0f, 2000.0f, ChargeAlpha);
 
-    FVector StartLocation = GetActorLocation() + GetActorForwardVector() * 100.f;
-    FVector LaunchVelocity =
-        (GetActorForwardVector() * ForwardSpeed) +
-        (FVector::UpVector * ThrowStrength);
+	float ForwardSpeed = 700.f;
 
-    FPredictProjectilePathParams Params;
-    Params.StartLocation = StartLocation;
-    Params.LaunchVelocity = LaunchVelocity;
-    Params.bTraceWithCollision = true;
-    Params.ProjectileRadius = 5.f;
-    Params.MaxSimTime = 3.f;
-    Params.TraceChannel = ECC_Visibility;
+	FRotator ControlRot = GetControlRotation();
+	FRotator YawOnly(0.f, ControlRot.Yaw, 0.f);
 
-    FPredictProjectilePathResult Result;
-    UGameplayStatics::PredictProjectilePath(this, Params, Result);
+	FVector ForwardDir = FRotationMatrix(YawOnly).GetUnitAxis(EAxis::X);
 
-    // Draw debug line
-    for (int32 i = 0; i < Result.PathData.Num() - 1; i++)
-    {
-        DrawDebugLine(
-            GetWorld(),
-            Result.PathData[i].Location,
-            Result.PathData[i+1].Location,
-            FColor::Yellow,
-            false,   // not persistent
-            0.0f,    // single frame
-            0,
-            2.0f
-        );
-    }
+	FVector StartLocation = GetActorLocation() + ForwardDir * 100.f;
+
+	FVector LaunchVelocity =
+		(ForwardDir * ForwardSpeed) +
+		(FVector::UpVector * ThrowStrength);
+
+	FPredictProjectilePathParams Params;
+	Params.StartLocation = StartLocation;
+	Params.LaunchVelocity = LaunchVelocity;
+	Params.bTraceWithCollision = true;
+	Params.ProjectileRadius = 5.f;
+	Params.MaxSimTime = 3.f;
+	Params.TraceChannel = ECC_Visibility;
+
+	FPredictProjectilePathResult Result;
+	UGameplayStatics::PredictProjectilePath(this, Params, Result);
+
+	TrajectoryMesh->ClearInstances();
+	// Draw debug line
+	for (int32 i = 0; i < Result.PathData.Num() - 1; i += 8)
+	{
+		for (const FPredictProjectilePathPointData &Point : Result.PathData)
+		{
+			FTransform T(FRotator::ZeroRotator, Point.Location, FVector(0.02f));
+			TrajectoryMesh->AddInstance(T, true);
+		}
+	}
+	if (Result.PathData.Num() > 0)
+	{
+		// FVector EndLocation = Result.PathData.Last().Location;
+		FVector EndLocation = Result.HitResult.bBlockingHit
+								  ? Result.HitResult.Location
+								  : Result.PathData.Last().Location;
+		TargetDecal->SetWorldLocation(EndLocation + FVector(0, 0, 0));
+		// TargetDecal->SetWorldLocation(EndLocation);
+		// TargetDecal->SetWorldRotation(FRotator(-90, 0, 0)); // project onto ground
+		if (Result.HitResult.bBlockingHit)
+		{
+			FVector Normal = Result.HitResult.ImpactNormal;
+
+			// Build rotation so decal faces the surface
+			FRotator DecalRotation = Normal.Rotation();
+
+			// Decals project along their -Z axis, so rotate 180 degrees
+			DecalRotation.Pitch += 180.f;
+
+			TargetDecal->SetWorldRotation(DecalRotation);
+		}
+		TargetDecal->SetVisibility(true);
+	}
+	else
+	{
+		TargetDecal->SetVisibility(false);
+	}
 }

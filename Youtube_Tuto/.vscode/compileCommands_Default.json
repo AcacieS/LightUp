@@ -1,825 +1,825 @@
 [
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\FairyCharacter.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\FairyCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\FairyCharacter.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\FairyCharacter.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\FairyCharacter_GameMode.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\FairyCharacter_GameMode.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\FairyCharacter_GameMode.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\FairyCharacter_GameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Fairy_GameMode.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Fairy_GameMode.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Fairy_GameMode.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Fairy_GameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\Firefly.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\Firefly.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\GameManager.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\GameManager.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\LightUserWidget.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\LightUserWidget.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\LightableActor.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\LightableActor.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\LightableInterface.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\LightableInterface.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\WindowActor.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\WindowActor.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\Firefly.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\Firefly.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\GameManager.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\GameManager.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\LightUserWidget.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\LightUserWidget.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\LightableActor.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\LightableActor.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\LightableInterface.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\LightableInterface.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\WindowActor.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\WindowActor.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatAIController.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatAIController.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatAIController.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatAIController.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatEnemy.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatEnemy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatEnemy.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatEnemy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatEnemySpawner.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatEnemySpawner.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatEnemySpawner.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatEnemySpawner.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatStateTreeUtility.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatStateTreeUtility.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatStateTreeUtility.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\CombatStateTreeUtility.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\EnvQueryContext_Danger.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\EnvQueryContext_Danger.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\EnvQueryContext_Danger.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\EnvQueryContext_Danger.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\EnvQueryContext_Player.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\EnvQueryContext_Player.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\EnvQueryContext_Player.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\AI\\EnvQueryContext_Player.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_CheckChargedAttack.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_CheckChargedAttack.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_CheckChargedAttack.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_CheckChargedAttack.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_CheckCombo.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_CheckCombo.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_CheckCombo.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_CheckCombo.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_DoAttackTrace.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_DoAttackTrace.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_DoAttackTrace.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Animation\\AnimNotify_DoAttackTrace.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatCharacter.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatCharacter.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatCharacter.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatGameMode.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatGameMode.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatGameMode.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatGameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatPlayerController.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatPlayerController.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatPlayerController.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\CombatPlayerController.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatActivationVolume.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatActivationVolume.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatActivationVolume.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatActivationVolume.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatCheckpointVolume.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatCheckpointVolume.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatCheckpointVolume.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatCheckpointVolume.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatDamageableBox.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatDamageableBox.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatDamageableBox.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatDamageableBox.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatDummy.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatDummy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatDummy.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatDummy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatLavaFloor.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatLavaFloor.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatLavaFloor.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Gameplay\\CombatLavaFloor.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatActivatable.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatActivatable.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatActivatable.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatActivatable.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatAttacker.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatAttacker.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatAttacker.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatAttacker.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatDamageable.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatDamageable.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatDamageable.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\Interfaces\\CombatDamageable.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\UI\\CombatLifeBar.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\UI\\CombatLifeBar.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\UI\\CombatLifeBar.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Combat\\UI\\CombatLifeBar.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\Animation\\AnimNotify_EndDash.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\Animation\\AnimNotify_EndDash.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\Animation\\AnimNotify_EndDash.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\Animation\\AnimNotify_EndDash.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingCharacter.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingCharacter.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingCharacter.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingGameMode.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingGameMode.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingGameMode.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingGameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingPlayerController.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingPlayerController.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingPlayerController.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_Platforming\\PlatformingPlayerController.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingAIController.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingAIController.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingAIController.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingAIController.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingNPC.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingNPC.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingNPC.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingNPC.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingStateTreeUtility.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingStateTreeUtility.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingStateTreeUtility.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\AI\\SideScrollingStateTreeUtility.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingJumpPad.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingJumpPad.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingJumpPad.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingJumpPad.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingMovingPlatform.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingMovingPlatform.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingMovingPlatform.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingMovingPlatform.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingPickup.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingPickup.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingPickup.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingPickup.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingSoftPlatform.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingSoftPlatform.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingSoftPlatform.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Gameplay\\SideScrollingSoftPlatform.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Interfaces\\SideScrollingInteractable.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Interfaces\\SideScrollingInteractable.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Interfaces\\SideScrollingInteractable.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\Interfaces\\SideScrollingInteractable.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingCameraManager.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingCameraManager.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingCameraManager.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingCameraManager.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingCharacter.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingCharacter.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingCharacter.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingGameMode.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingGameMode.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingGameMode.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingGameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingPlayerController.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingPlayerController.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingPlayerController.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\SideScrollingPlayerController.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\UI\\SideScrollingUI.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\UI\\SideScrollingUI.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\UI\\SideScrollingUI.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Variant_SideScrolling\\UI\\SideScrollingUI.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_Tuto.Build.cs",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_Tuto.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_Tuto.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_Tuto.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_Tuto.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_Tuto.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoCharacter.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoCharacter.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoCharacter.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoGameMode.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoGameMode.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoGameMode.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoGameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoPlayerController.cpp",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoPlayerController.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoPlayerController.h",
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Youtube_TutoPlayerController.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Default\\Youtube_Tuto.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	}
