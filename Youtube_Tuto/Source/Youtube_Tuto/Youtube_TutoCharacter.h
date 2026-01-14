@@ -7,9 +7,7 @@
 #include "Logging/LogMacros.h"
 #include "Components/InstancedStaticMeshComponent.h"
 #include "Components/DecalComponent.h"
-#include "PaperZDAnimationComponent.h"
-#include "PaperZDAnimInstance.h"
-#include "PaperFlipbookComponent.h"
+#include "Sound/SoundBase.h"
 #include "Youtube_TutoCharacter.generated.h"
 
 class USpringArmComponent;
@@ -74,7 +72,7 @@ public:
 	// Throw charge
 	float ThrowChargeTime = 0.0f;
 
-	UPROPERTY(BlueprintReadOnly, Category = "Animation")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Throw", meta = (AllowPrivateAccess = "true"))
 	bool bIsChargingThrow = false;
 
 	UPROPERTY(EditAnywhere, Category = "Throw")
@@ -154,15 +152,21 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Lantern")
 	TSubclassOf<ALantern> LanternClass;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Lantern")
+	USceneComponent *LanternAnchor;
+
 	// Reference to spawned lantern
 	UPROPERTY()
 	ALantern *LanternInstance;
 
-	UPROPERTY(VisibleAnywhere)
-	UPaperFlipbookComponent *Sprite;
+	UPROPERTY(EditAnywhere, Category = "Sound")
+	USoundBase *ThrowSound;
 
-	UPROPERTY(VisibleAnywhere)
-	UPaperZDAnimationComponent *AnimComponent;
+	UPROPERTY(EditAnywhere, Category = "Sound")
+	USoundBase *ViserSound;
+
+	UPROPERTY(EditAnywhere, Category = "Sound")
+	USoundBase *CandySound;
 
 public:
 	/** Returns CameraBoom subobject **/

@@ -88,6 +88,14 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\LightableComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Youtube_Tuto\\Youtube_Tuto.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
 		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Private\\LightableInterface.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
@@ -137,6 +145,14 @@
 	},
 	{
 		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\LightableActor.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Youtube_Tuto\\Youtube_Tuto.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\Source\\Youtube_Tuto\\Public\\LightableComponent.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
 			"@C:\\Users\\OfflineUser\\Desktop\\Programming\\Game\\Light\\LightUp\\Youtube_Tuto\\.vscode\\compileCommands_Youtube_Tuto\\Youtube_Tuto.1.rsp"

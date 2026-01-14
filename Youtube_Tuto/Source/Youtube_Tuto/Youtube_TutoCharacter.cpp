@@ -73,15 +73,18 @@ AYoutube_TutoCharacter::AYoutube_TutoCharacter()
 	TargetDecal->SetVisibility(false);
 	TargetDecal->DecalSize = FVector(64, 64, 64);
 
-	// Sprite = CreateDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite"));
-	// Sprite->SetupAttachment(RootComponent);
+	LanternAnchor = CreateDefaultSubobject<USceneComponent>(TEXT("LanternAnchor"));
+	LanternAnchor->SetupAttachment(RootComponent);
 
-	// AnimComponent = CreateDefaultSubobject<UPaperZDAnimationComponent>(TEXT("AnimComponent"));
-	// AnimComponent->SetRenderComponent(Sprite);
-	Sprite = CreateDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite"));
-	Sprite->SetupAttachment(RootComponent);
-
-	AnimComponent = CreateDefaultSubobject<UPaperZDAnimationComponent>(TEXT("AnimComponent"));
+	// Optional default offset
+	LanternAnchor->SetRelativeLocation(FVector(100.f, 0.f, 60.f));
+#if WITH_EDITOR
+	if (LanternClass)
+	{
+		ALantern *PreviewLantern = GetWorld()->SpawnActor<ALantern>(LanternClass);
+		PreviewLantern->AttachToComponent(LanternAnchor, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
+	}
+#endif
 }
 
 void AYoutube_TutoCharacter::BeginPlay()
@@ -108,26 +111,19 @@ void AYoutube_TutoCharacter::BeginPlay()
 			}
 		}
 	}
+
 	if (LanternClass)
 	{
-		FVector SpawnLocation = GetActorLocation() + FVector(50, 0, 50);
-		FRotator SpawnRotation = FRotator::ZeroRotator;
-
 		LanternInstance = GetWorld()->SpawnActor<ALantern>(
 			LanternClass,
-			SpawnLocation,
-			SpawnRotation);
+			FVector::ZeroVector,
+			FRotator::ZeroRotator);
 
-		if (LanternInstance)
+		if (LanternInstance && LanternAnchor)
 		{
 			LanternInstance->AttachToComponent(
-				RootComponent,
-				FAttachmentTransformRules::KeepRelativeTransform);
-
-			// Position it relative to your character
-			LanternInstance->SetActorRelativeLocation(FVector(40.f, 0.f, 60.f));
-			LanternInstance->SetActorRelativeRotation(FRotator::ZeroRotator);
-			LanternInstance->SetActorRelativeScale3D(FVector(0.5f, 0.5f, 0.5f));
+				LanternAnchor,
+				FAttachmentTransformRules::SnapToTargetIncludingScale);
 		}
 	}
 }
@@ -227,7 +223,6 @@ void AYoutube_TutoCharacter::DoMove(float Right, float Forward)
 
 		// get right vector
 		const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-
 		// add movement
 		AddMovementInput(ForwardDirection, Forward);
 		AddMovementInput(RightDirection, Right);
@@ -259,41 +254,41 @@ void AYoutube_TutoCharacter::DoJumpEnd()
 void AYoutube_TutoCharacter::AddMaxLight(const float light_value)
 {
 	MaxLight += light_value;
-	GEngine->AddOnScreenDebugMessage(
-		-1, 2.0f, FColor::Green,
-		FString::Printf(TEXT("MaxLight: %.0f"), MaxLight));
+	// GEngine->AddOnScreenDebugMessage(
+	// 	-1, 2.0f, FColor::Green,
+	// 	FString::Printf(TEXT("MaxLight: %.0f"), MaxLight));
 }
 
 void AYoutube_TutoCharacter::StartThrowCharge(const FInputActionValue &Value)
 {
 	if (Firefly <= 0)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, FString::Printf(TEXT("No Firefly"), Firefly));
+		// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, FString::Printf(TEXT("No Firefly"), Firefly));
 		return;
 	}
-	// UPaperZDAnimationComponent *AnimComp = Cast<UPaperZDAnimationComponent>(Actor->GetComponentByClass(UPaperZDAnimationComponent::StaticClass()));
-	// if (AnimComp)
-	// {
-	// 	UPaperZDAnimInstance *AnimInst = AnimComp->GetAnimInstance();
-	// 	// Access variables here
-	// }
-	// if (AnimComponent)
-	// {
-	// 	AnimComponent->SetBoolParameter(TEXT("bIsChargingThrow"), true);
-	// }
+
 	bIsChargingThrow = true;
 	Firefly -= 1.0f;
 	if (LanternInstance)
 	{
 		LanternInstance->LightDown();
 	}
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
+	// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
 	if (PlayerHUD)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Has Updated"));
 		PlayerHUD->SetNbFirefly((int32)Firefly);
 	}
-
+	if (ViserSound)
+	{
+		UGameplayStatics::PlaySoundAtLocation(
+			this,
+			ViserSound,
+			GetOwner()->GetActorLocation(),
+			1.0f,   // Pitch Multiplier (leave 1.0)
+        	0.5f
+		);
+	}
 	ThrowChargeTime = 0.0f;
 }
 
@@ -303,10 +298,6 @@ void AYoutube_TutoCharacter::ReleaseThrow(const FInputActionValue &Value)
 		return;
 
 	bIsChargingThrow = false;
-	// if (AnimComponent)
-	// {
-	// 	AnimComponent->SetBoolParameter(TEXT("bIsChargingThrow"), false);
-	// }
 	TargetDecal->SetVisibility(false);
 	TrajectoryMesh->ClearInstances();
 
@@ -317,13 +308,10 @@ void AYoutube_TutoCharacter::ReleaseThrow(const FInputActionValue &Value)
 	float ChargeAlpha = FinalCharge / MaxChargeTime;
 
 	// Debug
-	GEngine->AddOnScreenDebugMessage(
-		-1, 2.0f, FColor::Green,
-		FString::Printf(TEXT("Charge: %.2f"), ChargeAlpha));
+	// GEngine->AddOnScreenDebugMessage(
+	// 	-1, 2.0f, FColor::Green,
+	// 	FString::Printf(TEXT("Charge: %.2f"), ChargeAlpha));
 
-	// Spawn firefly
-	// FVector SpawnLocation = GetActorLocation() + GetActorForwardVector() * 100.0f;
-	// FRotator SpawnRotation = GetActorRotation();
 	FRotator ControlRot = GetControlRotation();
 	FRotator YawOnly(0.f, ControlRot.Yaw, 0.f);
 
@@ -339,6 +327,16 @@ void AYoutube_TutoCharacter::ReleaseThrow(const FInputActionValue &Value)
 		// Example: scale launch strength by charge
 		float ThrowStrength = FMath::Lerp(500.0f, 2000.0f, ChargeAlpha);
 		FireflyInstance->Launch(ThrowStrength);
+	}
+	if (ThrowSound)
+	{
+		UGameplayStatics::PlaySoundAtLocation(
+			this,
+			ThrowSound,
+			GetOwner()->GetActorLocation(),
+			1.0f,   // Pitch Multiplier (leave 1.0)
+        	0.5f
+		);
 	}
 }
 
@@ -361,17 +359,22 @@ void AYoutube_TutoCharacter::OnBeginOverlap(class UPrimitiveComponent *HitComp,
 		{
 			LanternInstance->LightUp();
 		}
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
+		// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
 		if (PlayerHUD)
 		{
 			UE_LOG(LogTemp, Warning, TEXT("Has Updated"));
 			PlayerHUD->SetNbFirefly((int32)Firefly);
 		}
-		// if(Firefly > 100.0f)
-		// 	Firefly = 100.0f;
 
 		// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
 		OtherActor->Destroy();
+		if (CandySound)
+		{
+			UGameplayStatics::PlaySoundAtLocation(
+				this,
+				CandySound,
+				GetOwner()->GetActorLocation());
+		}
 	}
 }
 void AYoutube_TutoCharacter::UpdateThrowPreview()

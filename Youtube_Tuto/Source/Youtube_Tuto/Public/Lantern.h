@@ -28,7 +28,7 @@ public:
 	UPointLightComponent *LanternLight;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Lantern")
-	float LightIncreaseAmount = 1000.f;
+	float LightIncreaseAmount = 100.f;
 
 	UFUNCTION(BlueprintCallable)
 	void LightUp();

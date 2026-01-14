@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Firefly.h"
+#include "LightableComponent.h"
 
 // Sets default values
 AFirefly::AFirefly()
@@ -14,6 +15,12 @@ AFirefly::AFirefly()
 	FireflyComponent->InitialSpeed = 800;
 	FireflyComponent->MaxSpeed = 8500;
 	// FireflyComponent->ProjectileGravityScale = 0.3f;
+
+	FireflyMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+	FireflyMesh->SetCollisionProfileName(TEXT("BlockAllDynamic"));
+
+	FireflyMesh->SetGenerateOverlapEvents(true);
+	FireflyMesh->SetNotifyRigidBodyCollision(true); // <-- enables Hit events
 }
 
 // Called when the game starts or when spawned
@@ -38,11 +45,16 @@ void AFirefly::OnFireflyOverlap(UPrimitiveComponent *OverlappedComp,
 {
 	if (!OtherActor || OtherActor == this)
 		return;
-	if (ALightableActor *LightTarget = Cast<ALightableActor>(OtherActor))
+	ULightableComponent *LightComp =
+		OtherActor->FindComponentByClass<ULightableComponent>();
+
+	if (LightComp)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Cyan, TEXT("Firefly hit Window!"));
-		LightTarget->ActivateLight();
-		Destroy();
+		// GEngine->AddOnScreenDebugMessage(
+		// 	-1, 2.f, FColor::Cyan, TEXT("Firefly hit Lightable object!"));
+
+		LightComp->ActivateLight();
+		Destroy(); // destroy firefly
 	}
 	// }else if (OtherActor)
 	// {
@@ -64,6 +76,17 @@ void AFirefly::OnFireflyHit(UPrimitiveComponent *HitComp,
 							FVector NormalImpulse,
 							const FHitResult &Hit)
 {
+	ULightableComponent *LightComp =
+		OtherActor->FindComponentByClass<ULightableComponent>();
+
+	if (LightComp)
+	{
+		// GEngine->AddOnScreenDebugMessage(
+		// 	-1, 2.f, FColor::Cyan, TEXT("Firefly hit Lightable object!"));
+
+		LightComp->ActivateLight();
+	}
+
 	Destroy();
 }
 void AFirefly::Launch(float ThrowStrength)

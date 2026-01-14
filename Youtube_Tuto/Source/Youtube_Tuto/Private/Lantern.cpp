@@ -38,7 +38,7 @@ void ALantern::LightUp()
 
 	float Current = LanternLight->Intensity;
 	float NewIntensity = Current + LightIncreaseAmount;
-	NewIntensity = FMath::Clamp(NewIntensity, 0.f, 100000.f);
+	NewIntensity = FMath::Clamp(NewIntensity, 0.f, 10000.f);
 	LanternLight->SetIntensity(NewIntensity);
 }
 
@@ -46,9 +46,8 @@ void ALantern::LightDown()
 {
 	if (!LanternLight)
 		return;
-
 	float Current = LanternLight->Intensity;
 	float NewIntensity = Current - LightIncreaseAmount;
-	NewIntensity = FMath::Clamp(NewIntensity, 0.f, 100000.f);
+	NewIntensity = FMath::Clamp(NewIntensity, 0.f, 10000.f);
 	LanternLight->SetIntensity(NewIntensity);
 }
