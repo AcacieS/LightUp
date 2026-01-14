@@ -17,6 +17,7 @@
 #include "GameFramework/Actor.h"
 #include "Kismet/GameplayStatics.h"
 #include "Firefly.h"
+#include "Lantern.h"
 #include "Youtube_Tuto.h"
 
 AYoutube_TutoCharacter::AYoutube_TutoCharacter()
@@ -71,24 +72,23 @@ AYoutube_TutoCharacter::AYoutube_TutoCharacter()
 	TargetDecal->SetupAttachment(RootComponent);
 	TargetDecal->SetVisibility(false);
 	TargetDecal->DecalSize = FVector(64, 64, 64);
+
+	// Sprite = CreateDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite"));
+	// Sprite->SetupAttachment(RootComponent);
+
+	// AnimComponent = CreateDefaultSubobject<UPaperZDAnimationComponent>(TEXT("AnimComponent"));
+	// AnimComponent->SetRenderComponent(Sprite);
+	Sprite = CreateDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite"));
+	Sprite->SetupAttachment(RootComponent);
+
+	AnimComponent = CreateDefaultSubobject<UPaperZDAnimationComponent>(TEXT("AnimComponent"));
 }
+
 void AYoutube_TutoCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AYoutube_TutoCharacter::OnBeginOverlap);
-	// ThrowPreviewSpline->ClearSplinePoints();
-	// if(Player_Firefly_Widget_Class != nullptr) {
-	// 	Player_Firefly_Widget = CreateWidget(GetWorld(), Player_Firefly_Widget_Class);
-	// 	Player_Firefly_Widget->AddToViewport();
 
-	// }
-	// locally controlled when user connected
-	// if(IsLocallyControlled() && PlayerHUDClass){
-	// 	//own by local player controller
-	// 	AYoutube_TutoPlayerController* FPC = GetController<AYoutube_TutoPlayerController>();
-	// 	PlayerHUD = CreateWidget<ULightUserWidget>(FPC, PlayerHUDClass);
-	// 	PlayerHUD->AddToPlayerScreen();
-	// }
 	if (TrajectorySegmentMesh)
 	{
 		TrajectoryMesh->SetStaticMesh(TrajectorySegmentMesh);
@@ -106,6 +106,28 @@ void AYoutube_TutoCharacter::BeginPlay()
 			{
 				PlayerHUD->AddToPlayerScreen();
 			}
+		}
+	}
+	if (LanternClass)
+	{
+		FVector SpawnLocation = GetActorLocation() + FVector(50, 0, 50);
+		FRotator SpawnRotation = FRotator::ZeroRotator;
+
+		LanternInstance = GetWorld()->SpawnActor<ALantern>(
+			LanternClass,
+			SpawnLocation,
+			SpawnRotation);
+
+		if (LanternInstance)
+		{
+			LanternInstance->AttachToComponent(
+				RootComponent,
+				FAttachmentTransformRules::KeepRelativeTransform);
+
+			// Position it relative to your character
+			LanternInstance->SetActorRelativeLocation(FVector(40.f, 0.f, 60.f));
+			LanternInstance->SetActorRelativeRotation(FRotator::ZeroRotator);
+			LanternInstance->SetActorRelativeScale3D(FVector(0.5f, 0.5f, 0.5f));
 		}
 	}
 }
@@ -133,26 +155,6 @@ void AYoutube_TutoCharacter::Tick(float DeltaTime)
 			ThrowChargeTime = MaxChargeTime;
 		UpdateThrowPreview();
 	}
-	// if (bIsChargingThrow)
-	// {
-	//     ThrowChargeTime += DeltaTime;
-	//     ThrowChargeTime = FMath::Min(ThrowChargeTime, MaxChargeTime);
-
-	//     UpdateThrowPreview(); // <-- draw arc
-	// }
-	// else
-	// {
-	//     // Clear preview when not charging
-	//     for (USplineMeshComponent* PreviewMesh : PreviewMeshes)
-	//     {
-	// 		if (PreviewMesh)
-	// 		{
-	// 			PreviewMesh->DestroyComponent();
-	// 		}
-	//     }
-	//     PreviewMeshes.Empty();
-	//     ThrowPreviewSpline->ClearSplinePoints();
-	// }
 }
 void AYoutube_TutoCharacter::AddLight(const float light_value)
 {
@@ -261,14 +263,6 @@ void AYoutube_TutoCharacter::AddMaxLight(const float light_value)
 		-1, 2.0f, FColor::Green,
 		FString::Printf(TEXT("MaxLight: %.0f"), MaxLight));
 }
-// void AYoutube_TutoCharacter::Throw(const FInputActionValue& Value){
-// 	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Throw Event Pressed"));
-// 	FVector SpawnLocation = GetActorLocation() + GetActorForwardVector() * 100.0f;
-//     FRotator SpawnRotation = GetActorRotation();
-
-//     GetWorld()->SpawnActor<AFirefly>(FireflyActor, SpawnLocation, SpawnRotation);
-// 	//GetWorld()->SpawnActor<AFirefly>(FireflyActor, GetActorLocation(), GetActorRotation());
-// }
 
 void AYoutube_TutoCharacter::StartThrowCharge(const FInputActionValue &Value)
 {
@@ -277,15 +271,29 @@ void AYoutube_TutoCharacter::StartThrowCharge(const FInputActionValue &Value)
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, FString::Printf(TEXT("No Firefly"), Firefly));
 		return;
 	}
-
+	// UPaperZDAnimationComponent *AnimComp = Cast<UPaperZDAnimationComponent>(Actor->GetComponentByClass(UPaperZDAnimationComponent::StaticClass()));
+	// if (AnimComp)
+	// {
+	// 	UPaperZDAnimInstance *AnimInst = AnimComp->GetAnimInstance();
+	// 	// Access variables here
+	// }
+	// if (AnimComponent)
+	// {
+	// 	AnimComponent->SetBoolParameter(TEXT("bIsChargingThrow"), true);
+	// }
+	bIsChargingThrow = true;
 	Firefly -= 1.0f;
+	if (LanternInstance)
+	{
+		LanternInstance->LightDown();
+	}
 	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
 	if (PlayerHUD)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Has Updated"));
 		PlayerHUD->SetNbFirefly((int32)Firefly);
 	}
-	bIsChargingThrow = true;
+
 	ThrowChargeTime = 0.0f;
 }
 
@@ -293,7 +301,12 @@ void AYoutube_TutoCharacter::ReleaseThrow(const FInputActionValue &Value)
 {
 	if (!bIsChargingThrow)
 		return;
+
 	bIsChargingThrow = false;
+	// if (AnimComponent)
+	// {
+	// 	AnimComponent->SetBoolParameter(TEXT("bIsChargingThrow"), false);
+	// }
 	TargetDecal->SetVisibility(false);
 	TrajectoryMesh->ClearInstances();
 
@@ -344,6 +357,10 @@ void AYoutube_TutoCharacter::OnBeginOverlap(class UPrimitiveComponent *HitComp,
 	{
 		// UE_LOG(LogTemp, Warning, TEXT("Collided with"));
 		Firefly += 1.0f;
+		if (LanternInstance)
+		{
+			LanternInstance->LightUp();
+		}
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Firefly: %.1f"), Firefly));
 		if (PlayerHUD)
 		{

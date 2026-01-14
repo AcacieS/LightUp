@@ -18,7 +18,7 @@ ALightableActor::ALightableActor()
     LightComp->SetupAttachment(RootComponent);
     LightComp->SetVisibility(false);
 
-        // LightComp = CreateDefaultSubobject<UPointLightComponent>(TEXT("LightComp"));
+    // LightComp = CreateDefaultSubobject<UPointLightComponent>(TEXT("LightComp"));
     // RootComponent = LightComp;
     // LightComp->SetVisibility(false);
 }
@@ -40,6 +40,8 @@ void ALightableActor::ActivateLight()
 {
     if (LightComp)
     {
+        if (LightComp->IsVisible())
+            return;
         LightComp->SetVisibility(true);
     }
     AYoutube_TutoCharacter *Player =

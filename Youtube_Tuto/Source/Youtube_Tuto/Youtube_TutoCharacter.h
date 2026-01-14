@@ -6,22 +6,20 @@
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
 #include "Components/InstancedStaticMeshComponent.h"
-// #include "Components/SplineComponent.h"
-// #include "Components/SplineMeshComponent.h"
 #include "Components/DecalComponent.h"
+#include "PaperZDAnimationComponent.h"
+#include "PaperZDAnimInstance.h"
+#include "PaperFlipbookComponent.h"
 #include "Youtube_TutoCharacter.generated.h"
 
 class USpringArmComponent;
 class UCameraComponent;
 class UInputAction;
+class ALantern;
 struct FInputActionValue;
 
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
-/**
- *  A simple player-controllable third person character
- *  Implements a controllable orbiting camera
- */
 UCLASS(abstract)
 class AYoutube_TutoCharacter : public ACharacter
 {
@@ -75,6 +73,8 @@ public:
 
 	// Throw charge
 	float ThrowChargeTime = 0.0f;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Animation")
 	bool bIsChargingThrow = false;
 
 	UPROPERTY(EditAnywhere, Category = "Throw")
@@ -149,6 +149,20 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<class AFirefly> FireflyActor;
+
+	// Lantern class to spawn
+	UPROPERTY(EditAnywhere, Category = "Lantern")
+	TSubclassOf<ALantern> LanternClass;
+
+	// Reference to spawned lantern
+	UPROPERTY()
+	ALantern *LanternInstance;
+
+	UPROPERTY(VisibleAnywhere)
+	UPaperFlipbookComponent *Sprite;
+
+	UPROPERTY(VisibleAnywhere)
+	UPaperZDAnimationComponent *AnimComponent;
 
 public:
 	/** Returns CameraBoom subobject **/

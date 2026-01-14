@@ -19,7 +19,9 @@ public class Youtube_Tuto : ModuleRules
 			"GameplayStateTreeModule",
 			"UMG",
 			"Slate",
-			"GeometryCore"
+			"GeometryCore",
+			"PaperZD",
+			"Paper2D"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
